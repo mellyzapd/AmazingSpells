@@ -1,0 +1,75 @@
+/* Empty. Add your own CSS if you like */
+/*color*/
+.green {
+  color: #388E3C!important;
+}
+.greenBg {
+  background-color: #388E3C!important;
+}
+.black {
+  color: #222!important;
+}
+.blackBg {
+  background-color: #222!important;
+}
+.white {
+  color: #fff!important;
+}
+.whiteBg{
+  background-color: #fff!important;
+}
+ .custom-dark{
+    color : #388E3C !important; 
+    background-color:#222!important; 
+ }
+
+/*body */ 
+body {
+  font-family: Roboto, Noto, Helvetica, Arial, sans-serif;
+}
+h1, h2 {
+  font-family: Roboto, Noto, Helvetica, Arial, sans-serif;
+  font-size: 24px; 
+  /*font-style: thin;how to make this use thin font*/
+  margin-top: none;
+  padding: 10px;
+}
+p {
+	font-family: Roboto, Noto, Helvetica, Arial, sans-serif;
+  font-size: 16px; 
+  /*font-style: thin;how to make this use thin font*/
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+/*dash*/
+
+.dash {
+	background-image: url(../img/ASbackground.jpg);
+     height: 100%; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.wand {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*hastag */
+.feed2 {
+	text-align: left; 
+	background-image: url(../img/newspaperBG.png); 
+	height: auto;
+	width: 95%;
+	padding: 10px;
+	margin: 10px;
+	opacity: 0.8;
+	line-height: 2;
+}
